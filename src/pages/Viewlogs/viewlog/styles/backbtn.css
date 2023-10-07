@@ -1,0 +1,64 @@
+
+.top{
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 88vw;
+    /* font-size: 1.6em; */
+    font-family: "Poppins-SemiBold", Helvetica;
+    margin:20px 50px;
+}
+a{
+    position: fixed;
+    bottom: 2px;
+}
+.backsymbol{
+    margin:5px;
+}
+.write{
+    margin: 5px;
+}
+.navbar{
+    margin-left: 50px;
+    border: 2px solid black;
+    width: 86%;
+    height: 100%;
+}
+@media screen and (max-width: 1200px) {
+    .top{
+      font-size: 20px;
+      margin:20px;
+    }
+  }
+  @media screen and (max-width: 960px) {
+    .top{
+      font-size: 18px;
+      margin:18px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .top{
+      font-size: 16px;
+      margin:13px;
+    }
+    .backsymbol{
+        margin-left: 2px;
+    }
+    .navb{
+        margin-left: 40px;
+        height: 85%;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .top{
+      font-size: 14px;
+      margin:10px;
+    }
+    .navb{
+        margin-left: 30px;
+        height: 75%;
+    }
+  }
